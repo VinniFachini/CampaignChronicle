@@ -29,17 +29,25 @@ module.exports = {
           400: '#D4AF37',
           500: '#B8860B',
           600: '#9A7D0A',
-        }
+        },
+        success: {
+          500: '#4CAF50',
+        },
+        error: {
+          500: '#F44336', // Removido o # extra
+        },
+        warning: {
+          500: '#FF9800',
+        },
+        info: {
+          500: '#2196F3',
+        },
       },
       fontFamily: {
         'display': ['Cinzel', 'serif'],
         'title': ['IM Fell English', 'serif'],
         'body': ['Lora', 'serif'],
         'ui': ['Inter', 'sans-serif'],
-      },
-      backgroundImage: {
-        'parchment-texture': "url('/assets/textures/parchment.png')",
-        'leather-texture': "url('/assets/textures/leather.png')",
       },
       boxShadow: {
         'parchment': '0 4px 6px -1px rgba(44, 24, 16, 0.1), 0 2px 4px -1px rgba(44, 24, 16, 0.06)',
