@@ -7,6 +7,16 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
-    'nuxt-lucide-icons'
-  ]
+    'nuxt-lucide-icons',
+    '@nuxtjs/mdc'
+  ],
+  mdc: {
+    // Configurações do MDC
+    headings: {
+      anchorLinks: false // Desabilita links automáticos em headers
+    },
+    components: {
+      prose: true // para aplicar classes prose automaticamente
+    }
+  }
 })
